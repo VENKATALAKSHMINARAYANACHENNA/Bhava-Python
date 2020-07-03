@@ -1,0 +1,21 @@
+import musicmodule as ms
+n=int(input("Enter n Value:"))
+while(n%2==0):
+    n=int(input("Please Enter Odd Number"))
+print("Swasthik Pattern")
+ms.swasthik(n)
+print("Swasthik Sapta Swara Pattern")
+ms.saptaswara(8)
+print("Sapta Swara Left Lower Traingle Pattern")
+ms.swaraleftlower(8)
+print("Sapta Swara Left Upper Traingle Pattern")
+ms.swaraleftupper(8)
+print("Sapta Swara  Pascal Traingle Pattern")
+ms.swarapascal(8)
+print("Sapta Swara  Reverse Pascal Traingle Pattern")
+ms.swarareversepascal(8)
+print("Sapta Swara Arohana Avarohana Pascal Pattern")
+ms.swarafull(8)
+print("Sapta Swara Lower Upper Pattern")
+ms.swaralowerupper(8)
+
